@@ -1,0 +1,6 @@
+COMMANDS TO RUN IN THE THERMINAL:
+
+pip install -r needs.txt
+
+python -m streamlit run college.py
+
