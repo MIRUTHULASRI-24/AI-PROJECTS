@@ -1,0 +1,102 @@
+ 🎓 AI-Powered Tamil Nadu College Finder
+
+ 📌 Project Overview
+
+The AI-Powered Tamil Nadu College Finder is an AI-based application that helps students discover suitable colleges, courses, and scholarship opportunities across Tamil Nadu.
+
+Users can enter their preferred domain, select a city, and choose their college preferences to receive personalized college recommendations with relevant course details, scholarship information, and college website links.
+
+ ✨ Features
+
+- 🎓 AI-powered college recommendations
+- 📍 Search colleges by city across Tamil Nadu
+- 📚 Find relevant courses based on the preferred domain
+- 💰 Explore scholarship opportunities and eligibility details
+- 🔗 Access college websites and admission links
+- ➕ Retrieve additional college recommendations
+- 🖥️ Interactive web interface using Streamlit
+
+ 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- OpenRouter API
+- OpenAI Python SDK
+- JSON
+
+📂 Project Structure
+
+
+TAMILNADU COLLEGE FINDER/
+│
+├── college.py
+├── needs.txt
+└── README.md
+
+
+⚙️ Installation and Setup
+
+ 1. Clone the Repository
+
+GitHub Repository: [AI-PROJECTS](https://github.com/MIRUTHULASRI-24/AI-PROJECTS)
+
+
+2. Navigate to the Project Folder
+
+
+cd "AI-PROJECTS/TAMILNADU COLLEGE FINDER"
+
+ 3. Install Dependencies
+
+
+pip install -r needs.txt
+
+
+4. Configure the API Key
+
+This application uses the OpenRouter API to generate AI-powered recommendations.
+
+- Create an OpenRouter API key.
+- Store it securely using Streamlit secrets or an environment variable.
+- Never upload your API key to GitHub.
+
+5. Run the Application
+
+
+streamlit run college.py
+
+
+The application will open in your web browser.
+
+🚀 How to Use
+
+1. Enter a preferred domain, such as Artificial Intelligence, Machine Learning, Computer Science, or Data Science.
+2. Select a preferred city in Tamil Nadu or choose any city in Tamil Nadu.
+3. Choose your college preference.
+4. Click **Find Top 5 Colleges with Scholarships**.
+5. Explore college recommendations, courses, scholarship information, and website links.
+6. Click **View More Colleges** to retrieve additional recommendations.
+
+🎯 Project Objective
+
+The objective of this project is to simplify the college-search process by helping students explore institutions, identify relevant courses, and discover potential scholarship opportunities through an AI-powered interface.
+
+⚠️ Disclaimer
+
+Recommendations and scholarship details are AI-generated and may not always be accurate or current. Always verify college information, course availability, admission procedures, scholarship eligibility, and deadlines through official sources.
+
+👩‍💻 Author
+
+Miruthulasri V.
+
+M.Sc. Data Science Student
+
+GitHub: [MIRUTHULASRI-24](https://github.com/MIRUTHULASRI-24)
+
+ 🔮 Future Enhancements
+
+- Integration with verified college databases
+- Improved scholarship filtering
+- College comparison functionality
+- More accurate course recommendations
+- Deployment as a publicly accessible web application
